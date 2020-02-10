@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#a    /* Table starting one*/
+{
+  margin-left:px;
+  font-size: 1.5rem;
+  background-color: black;
+}
+td
+{
+  color: red;
+  padding: 8px;
+}
+h2
+{
+  text-align: center;
+  color: powderblue;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  margin-bottom: 3px;
+}
+hr
+{
+    width: 140px;
+    height: 1px;
+    margin-left: 690px;
+}
+#ab
+{
+  background-color: #575455;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+#name , #no
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin-top: 12px;
+  margin-left: 450px;
+}
+#room
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin-left: 200px;
+}
+#d1
+{
+ padding-top: 8px;
+ padding-bottom: 8px;
+ padding-right: 40px;
+ border-radius: 5px;
+ margin-top: 12px;
+ margin-left: 5px;
+}
+ #d2
+ {
+
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-right: 40px;
+     border-radius: 5px;
+     margin-left: 5px;
+
+ }
+ #no1
+{
+  padding-top: 8px;
+  padding-left: -4px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin-left: 235px;
+}
+#sub
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  margin-left: 700px;
+  text-align: center;
+}
+#p
+{
+  color: Purple;
+  font-size: 30px;
+
+}
+#x
+{
+  color:black;
+  font-size: 30px;
+}
+#contact
+{
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  <table id=a>
+    <tr>
+  <img src="..\img\logo.jpeg" style="width:150px;height:100px;">
+  <center>
+  <h1 style="margin-top:-95px;color: 	#201D1E;font-size:50px;font-family: Algerian;">HOTEL ROYALE</h1>
+</center>
+  <center>
+      <td style="padding-left:550px;"> Home </td>
+      <td style="padding-left:10px;"><a href="room.html" style="color:red;"> Rooms & Suites </td>
+      <td style="padding-left:10px;"><a href="index.html"  style="color:red;"> Meetings & Events</td>
+      <td style="padding-left:10px;"><a href="WEBPAGE.html"  style="color:red;"> Restaurant </td>
+      <td style="padding-left:10px;"><a href="#s"  style="color:red;"> Spa </td>
+      <td style="padding-left:10px;padding-right:75px;"><a href="Feedback.html" style="color:red;"> Feedback </td>
+    </tr>
+  </table>
+</center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="bg1.jpg" style="width:100%">
+  <div class="text">ROYALE HOTEL</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="home2.jpeg" style="width:100%;height: 75%;">
+  <div class="text">WELCOME</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="home3.jpeg" style="width:100%">
+  <div class="text">POOL SIDE VIEW</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<hr>
+<div id=ab class="grid-container">
+<h2>BOOK YOUR STAY</h2>
+  <form action="/action_page.php" action="next.asp" method="post" name="myform" onsubmit=return(validata())>
+  <input  id=name type="text" placeholder="Enter Your Name">
+
+
+        <select id=room>
+          <option value="0"> ROOM TYPE </option>
+          <option value="1"> KING SIZE </option>
+          <option value="2"> QUEEN TYPE</option>
+          <option value="3"> PREMIUM ROOM</option>
+          <option value="4"> LUXURIOUS ROOM</option>
+          <option value="5"> NORMAL ROOM</option>
+        </select>
+<br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp FROM<input id=d1 type="date" >
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTO<input id=d2 type="date">
+<br><br>
+
+        <select id=no>
+          <option value="0"> No. OF PEOPLE </option>
+          <option value="1"> 1 </option>
+          <option value="2"> 2</option>
+          <option value="3"> 3</option>
+          <option value="4"> 4</option>
+        </select>
+
+            <select id=no1>
+              <option value="0"> PAYMENT MODE </option>
+              <option value="1"> NET BANKING </option>
+              <option value="2"> CREDIT/DEBIT CARD</option>
+              <option value="3"> MOBILE WALLET</option>
+              <option value="4"> COA</option>
+            </select>
+            <br><br>
+
+<input id="sub" class="btn-primary" type="submit" style="text-align:center;">
+</form>
+</div>
+
+    <div id=s class="spa">
+      <h2>SPA</h2>
+      <img id=h src="../img/spa.jpg" style="width:35%; height:80%;margin-left:100px;padding-top:50px;" alt="spa">
+      <p id=p style="font-weight: 300;margin-left:700px;margin-top: -250px;"> Guest’s today are on the go. They live and breathe by their mobile phone. Many people never get more than a few feet away from their mobile phone. For guests that confirm a stay at our hotel can also avail the facility like SPA. SPA gives relaxation to human body.</p>
+    </div>
+    <br><br>
+    <div class="fitness">
+      <h2>FITNESS</h2>
+
+      <img  src="../img/fit.jpg" style="width:35%; height:80%;margin-left:880px;padding-top:50px;" alt="fit">
+        <p id=p style="margin-left:50px;margin-right: 700px;margin-top: -250px;"> Keep up with your fitness routine whilst you’re away with our free hotel gym. Packed with cardio and resistance equipment and free weights, you can unwind after a busy day in the capital at the 4-star Strand Palace Hotel.</p>
+    </div>
+    <br><br><br>
+    <br><br>
+    <div class="us">
+      <h2>WHY US?</h2>
+      <img  src="../img/us.jpg" style="width:35%; height:80%;margin-left:100px;padding-top:50px;" alt="WHY US?">
+        <h3 id=x style="margin-left:50px;margin-left: 900px;margin-top: -270px;"> Because... </h3>
+        <p id=x style="margin-left:50px;margin-left: 700px;margin-top: 30px;"> --We provide the best service in the Country.<br>--You wish We fullfill<br>--High Qulatiy Rooms<br>--Free facilities like WiFi,Gym etc.</p>
+      </div>
+      <footer id="contact">
+      <h3 style="margin-top:100px;margin-left:500px;"> Contact Us </h3>
+      <p style="margin-left:500px;">7th Sky Heaven Street</p>
+      <p style="margin-left:500px;">Call Us : 0285-2632756</p>
+      <p style="margin-left:500px;">2018 © Copyright Royalle.com</p>
+      <h3 style="margin-top:-150px;margin-left:900px;"> About Us </h3>
+      <p style="margin-left:900px;">We have branches all over INDIA.</p>
+      <p style="margin-left:900px;">Visit us at</p>
+      <p style="margin-left:900px;">Instagram,Facebook.</p>
+      </footer>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+function validata()
+{
+  if(document.getElementById("name").value=="")
+  {
+    alert("Please provide your name.")
+    document.getElementById("name").focus()
+    return(false)
+  }
+
+  if(document.getElementById("d1").value=="")
+  {
+      alert("Please Enter The FROM Date.")
+      document.getElementById("d1").focus()
+      return(false)
+  }
+  if(document.getElementById("d2").value=="")
+  {
+      alert("Please Enter The TO Date.")
+      document.getElementById("d2").focus()
+      return(false)
+  }
+
+  if(document.getElementById("sub").value=="")
+  {
+      alert("Your STAY IS BOOKED SUCCESSFULLY.")
+      document.getElementById("sub").focus()
+      return(false)
+  }
+
+}
+</script>
+
+</body>
+</html>
